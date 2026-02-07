@@ -12,9 +12,9 @@ permalink: /zh/pages/components/messagebox/
 `Dialog` 是模态无边框对话框，用于用于消息提示、确认消息和提交内容。该对话框会中断用户操作，直到用户确认知晓后才可关闭。
 
 ```python
-w = Dialog("标题", "这是一条消息通知", window)
+dialog = Dialog("标题", "这是一条消息通知", window)
 
-if w.exec():
+if dialog.exec():
     print('确认')
 else:
     print('取消')
@@ -23,20 +23,18 @@ else:
 修改按钮文本：
 
 ```python
-w.yesButton.setText("来啦老弟")
-w.cancelButton.setText("但是我拒绝")
+dialog.yesButton.setText("来啦老弟")
+dialog.cancelButton.setText("但是我拒绝")
 ```
 
 隐藏确定按钮：
 ```python
-w.yesButton.hide()
-w.buttonLayout.insertStretch(0, 1)
+dialog.hideYesButton()
 ```
 
 隐藏取消按钮：
 ```python
-w.cancelButton.hide()
-w.buttonLayout.insertStretch(0, 1)
+dialog.hideCancelButton()
 ```
 
 如果同时使用 `Dialog` 和 `FluentWindow`，可能导致窗口无法拉伸，解决方案如下：
@@ -54,9 +52,9 @@ app.setAttribute(Qt.ApplicationAttribute.AA_DontCreateNativeWidgetSiblings)
 最好将对话框的父级设置为主窗口，这样遮罩的尺寸就能和主窗口保持一致。
 
 ```python
-w = MessageBox("标题", "这是一条消息通知", window)
+dialog = MessageBox("标题", "这是一条消息通知", window)
 
-if w.exec():
+if dialog.exec():
     print('确认')
 else:
     print('取消')
@@ -86,9 +84,9 @@ class CustomMessageBox(MessageBoxBase):
 
 
 def showMessage(window):
-    w = CustomMessageBox(window)
-    if w.exec():
-        print(w.urlLineEdit.text())
+    dialog = CustomMessageBox(window)
+    if dialog.exec():
+        print(dialog.urlLineEdit.text())
 ```
 
 运行效果如下：

@@ -12,9 +12,9 @@ permalink: /pages/components/messagebox/
 `Dialog` is a modal, borderless dialog box used for message prompts, confirmation messages, and content submission. This dialog box will interrupt user operations until the user acknowledges it can be closed.
 
 ```python
-w = Dialog("Title", "This is a message notification", window)
+dialog = Dialog("Title", "This is a message notification", window)
 
-if w.exec():
+if dialog.exec():
     print('Confirmed')
 else:
     print('Canceled')
@@ -23,20 +23,18 @@ else:
 Change button text:
 
 ```python
-w.yesButton.setText("Roger")
-w.cancelButton.setText("Refuse")
+dialog.yesButton.setText("Roger")
+dialog.cancelButton.setText("Refuse")
 ```
 
 Hide the confirm button:
 ```python
-w.yesButton.hide()
-w.buttonLayout.insertStretch(0, 1)
+dialog.hideYesButton()
 ```
 
 Hide the cancel button:
 ```python
-w.cancelButton.hide()
-w.buttonLayout.insertStretch(0, 1)
+dialog.hideCancelButton()
 ```
 
 If `Dialog` and `FluentWindow` are used together, the window may become non-resizable. The solution is as follows:
@@ -55,9 +53,9 @@ app.setAttribute(Qt.ApplicationAttribute.AA_DontCreateNativeWidgetSiblings)
 It's best to set the parent of the message box to the main window so that the size of the overlay matches the main window.
 
 ```python
-w = MessageBox("Title", "This is a message notification", window)
+dialog = MessageBox("Title", "This is a message notification", window)
 
-if w.exec():
+if dialog.exec():
     print('Confirmed')
 else:
     print('Canceled')
@@ -89,9 +87,9 @@ class CustomMessageBox(MessageBoxBase):
 
 
 def showMessage(window):
-    w = CustomMessageBox(window)
-    if w.exec():
-        print(w.urlLineEdit.text())
+    dialog = CustomMessageBox(window)
+    if dialog.exec():
+        print(dialog.urlLineEdit.text())
 ```
 
 The running effect is as follows:
