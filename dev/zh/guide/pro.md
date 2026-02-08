@@ -66,6 +66,7 @@ Python 组件库采用对偶许可证，非商业用途使用 GPLv3 许可证进
 | --------------------- | -------------------------------- |
 | `ProCalendarPicker`   | 高级日历选择器，可以禁用部分日期 |
 | `RangeCalendarPicker` | 日历范围选择器                   |
+| `CalendarTimePicker` |  日期时间选择器                   |
 
 ### 布局
 | 组件名            | 描述                               |
@@ -149,6 +150,8 @@ Python 组件库采用对偶许可证，非商业用途使用 GPLv3 许可证进
 | `StepProgressBar`                 | 步骤进度条，可用于显示任务步骤 |
 | `Tag`                             | 标签组件                       |
 | `Toast`                           | 吐司通知                       |
+| `ProgressToast`                   | 进度吐司通知                       |
+| `IndeterminateProgressToast`      | 不确定进度吐司通知                       |
 | `SimpleToastView`                 | 简易吐司通知视图               |
 | `StarWidget`                      | 星型组件                       |
 | `SingleScoreWidget`               | 评分组件                       |

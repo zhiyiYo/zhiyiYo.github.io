@@ -41,3 +41,9 @@ The usage of `FastCalendarPicker` is identical to  [CalendarPicker](#calendarpic
 ![RangeCalendarPicker](/img/components/calendarpicker/RangeCalendarPicker.png)
 
 `RangeCalendarPicker` is used for selecting a date range.
+
+### [CalendarTimePicker](https://qfluentwidgets.com/price)
+
+![CalendarTimePicker](/img/components/calendarpicker/CalendarTimePicker.png)
+
+`CalendarTimePicker` is used for selecting a date and time.

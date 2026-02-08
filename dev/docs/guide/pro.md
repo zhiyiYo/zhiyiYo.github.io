@@ -68,7 +68,7 @@ You can download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release pa
 | --------------------- | ---------------------------------------------------------- |
 | `ProCalendarPicker`   | An advanced calendar picker that can disable certain dates |
 | `RangeCalendarPicker` | A calendar range picker                                    |
-
+| `CalendarTimePicker`  | A calendar and time picker                                 |
 
 ### Layout
 | Component Name    | Description                                               |
@@ -137,19 +137,21 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `SlideAniStackedWidget`       | Stacked widget with sliding animation  |
 
 ### Status & Info
-| Component Name       | Description                         |
-| -------------------- | ----------------------------------- |
-| `FilledProgressBar`  | Progress bar with filled background |
-| `ProgressInfoBar`    | Progress info bar                   |
-| `ProgressPushButton` | Progress push button                |
-| `StepProgressBar`    | Step progress bar                   |
-| `Tag`                | Tag widget                          |
-| `Toast`              | Toast information widget            |
-| `SimpleToastView`    | Simple toast view                   |
-| `StarWidget`         | Star widget                         |
-| `SingleScoreWidget`  | Single score widget                 |
-| `MultiScoreWidget`   | Multi score widget                  |
-| `RadialGauge`        | Radial gauge                        |
+| Component Name               | Description                         |
+| ---------------------------- | ----------------------------------- |
+| `FilledProgressBar`          | Progress bar with filled background |
+| `ProgressInfoBar`            | Progress info bar                   |
+| `ProgressPushButton`         | Progress push button                |
+| `StepProgressBar`            | Step progress bar                   |
+| `Tag`                        | Tag widget                          |
+| `Toast`                      | Toast information widget            |
+| `ProgressToast`              | Progress toast                      |
+| `IndeterminateProgressToast` | Indeterminate progress toast        |
+| `SimpleToastView`            | Simple toast view                   |
+| `StarWidget`                 | Star widget                         |
+| `SingleScoreWidget`          | Single score widget                 |
+| `MultiScoreWidget`           | Multi score widget                  |
+| `RadialGauge`                | Radial gauge                        |
 
 ### Navigation
 | Component Name             | Description                 |

@@ -41,3 +41,9 @@ calendarPicker.setDateFormat('yyyy-M-d')
 ![RangeCalendarPicker](/img/components/calendarpicker/RangeCalendarPicker.png)
 
 `RangeCalendarPicker` 用于选择日期范围。
+
+### [CalendarTimePicker](https://qfluentwidgets.com/zh/price)
+
+![CalendarTimePicker](/img/components/calendarpicker/CalendarTimePicker.png)
+
+`CalendarTimePicker` 可用于同时选择日期和时间。
