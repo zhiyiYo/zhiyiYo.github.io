@@ -9,7 +9,6 @@ permalink: /zh/pages/designer/
 
 ### 使用 Client
 
-**下述所有操作，必须在英文路径下完成。**
 
 Fluent Client 集成了设计师插件、可视化 Nuitka 打包和脚手架功能，支持在 Designer 中直接拖拽使用 QFluentWidgets 的组件，所见即所得，让现代化界面搭建如丝般顺滑！可在 [淘宝](https://item.taobao.com/item.htm?ft=t&id=767961666600) 购买使用 Fluent Client。
 

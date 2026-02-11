@@ -1,7 +1,7 @@
 export const prices = {
     month: '月',
     year: '年',
-    badge: '最流行',
+    badge: '年货节大促',
     buyPlan: '立即购买',
     title: '价格',
     permanent: "永久",
@@ -40,6 +40,7 @@ export const prices = {
             title: '个人专业版',
             desc: '适用于您用户量快速发展的应用程序',
             price: '￥2499',
+            salePrice: '￥2249',
             year: false,
             permanent: true,
             url: 'https://item.taobao.com/item.htm?ft=t&id=761921596721',

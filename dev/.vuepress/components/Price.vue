@@ -20,10 +20,10 @@
         <!-- 价格卡 -->
         <div class="price-card-container">
             <div class="price-card-list">
-                <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
+                <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :salePrice="p.salePrice" :year="p.year" :permanent="p.permanent"
                     :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isPython"
                     v-for="p in pricePlan.python" />
-                <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
+                <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :salePrice="p.salePrice" :year="p.year" :permanent="p.permanent"
                     :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isCpp"
                     v-for="p in pricePlan.cpp" />
             </div>

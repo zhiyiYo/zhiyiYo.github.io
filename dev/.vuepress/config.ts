@@ -30,7 +30,12 @@ export default defineUserConfig({
       {
         src: '/js/badge.js'
       }
-
+    ],
+    [
+      'script',
+      {
+        src: '/js/page-banner.js'
+      }
     ],
   ],
   theme: recoTheme(themeConfig),

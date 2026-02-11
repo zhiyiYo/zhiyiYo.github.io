@@ -11,8 +11,10 @@
 
         <!-- 价格 -->
         <p class="price-container">
-            <span class="price-value">{{ price }}</span>
-            <span class="price-period">{{ period }}</span>
+            <span class="price-value" v-if="salePrice">{{ salePrice }}</span>
+            <span class="price-original" v-if="salePrice">{{ price }}</span>
+            <span class="price-value" v-if="!salePrice">{{ price }}</span>
+            <span class="price-period" v-show="false">{{ period }}</span>
         </p>
 
         <!-- 购买按钮 -->
@@ -87,6 +89,10 @@ export default {
         price: {
             type: String,
             require: true
+        },
+        salePrice: {
+            type: String,
+            default: ''
         },
         year: {
             type: Boolean,
@@ -181,6 +187,16 @@ export default {
             font-weight: 700;
             font-size: 2.25rem;
             line-height: 2.5rem;
+        }
+
+        .price-original {
+            @apply text-gray-400 dark:text-gray-500;
+            text-decoration: line-through;
+            letter-spacing: -0.025rem;
+            font-weight: 500;
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            margin-left: 0.5rem;
         }
 
         .price-period {
