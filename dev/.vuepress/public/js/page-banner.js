@@ -1,10 +1,10 @@
 (function() {
-  const BANNER_CLOSED_KEY = 'page-banner-closed';
+  const BANNER_CLOSED_KEY = 'page-banner-closed-v2';
 
   function getBannerConfig() {
     const path = window.location.pathname;
     const zhBanner = {
-      text: '代码也要焕新颜，组件库年货节狂欢开启，快来看看吧 🎉',
+      text: '组件库年货节，错过这次，再等一年，快来看看吧 🎉',
       link: '/zh/price',
       linkText: '了解更多'
     };
