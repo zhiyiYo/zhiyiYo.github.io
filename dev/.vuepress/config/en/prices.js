@@ -1,7 +1,7 @@
 export const prices = {
     month: 'Month',
     year: 'Year',
-    badge: 'Most popular',
+    badge: 'Limited Time 2.12~2.23',
     buyPlan: 'Buy plan',
     title: 'Pricing',
     permanent: "Permanent",

@@ -1,7 +1,7 @@
 export const prices = {
     month: '月',
     year: '年',
-    badge: '年货节大促',
+    badge: '年货节 2.12~2.23 限时特价',
     buyPlan: '立即购买',
     title: '价格',
     permanent: "永久",
