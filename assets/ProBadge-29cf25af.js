@@ -1,0 +1,1 @@
+import{_ as e,o,c as _}from"./app-79b5d7b8.js";const a={name:"ProBadge"},s={class:"pro-badge"};function t(c,r,n,d,p,f){return o(),_("span",s,"Pro")}const i=e(a,[["render",t],["__scopeId","data-v-12ff4331"],["__file","ProBadge.vue"]]);export{i as default};
