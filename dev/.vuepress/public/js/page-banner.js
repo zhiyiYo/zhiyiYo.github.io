@@ -1,6 +1,10 @@
 (function() {
   const BANNER_CLOSED_KEY = 'page-banner-closed-v2';
 
+  function isActivityEnabled() {
+    return false;
+  }
+
   function getBannerConfig() {
     const path = window.location.pathname;
     const zhBanner = {
@@ -44,7 +48,7 @@
 
   function checkAndInjectBanner() {
     // 如果用户已经关闭过横幅，不再显示
-    if (isBannerClosed()) {
+    if (isBannerClosed() || !isActivityEnabled()) {
       return;
     }
 

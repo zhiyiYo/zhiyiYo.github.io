@@ -1,7 +1,7 @@
 export const prices = {
     month: 'Month',
     year: 'Year',
-    badge: 'Limited Time 2.12~2.23',
+    badge: 'Most popular',
     buyPlan: 'Buy plan',
     title: 'Pricing',
     permanent: "Permanent",
@@ -39,7 +39,7 @@ export const prices = {
             title: 'Professional',
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$399',
-            salePrice: '$365',
+            // salePrice: '$365',
             year: false,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -174,10 +174,10 @@ export const prices = {
             id: 1
         },
         {
-            logo: "https://img.fastmirror.net/s/2023/12/09/65740850ccc5b.png",
+            logo: "/img/users/CopyAsk.png",
             title: "Copyask",
             content: "“Yet again QFluentWidgets are dramatically speeding up my frontend work. At this point QFluentWidgets is hands-down the highest ROI digital asset I’ve ever bought. I hope the component library can continue to develop and grow.”",
-            avatar: "https://img.fastmirror.net/s/2023/12/09/6574094282706.png",
+            avatar: "/img/users/B1lli.png",
             name: "B1lli",
             job: "Founder of LangCore",
             id: 2

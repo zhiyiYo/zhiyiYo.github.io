@@ -1,7 +1,7 @@
 export const prices = {
     month: '月',
     year: '年',
-    badge: '年货节 2.12~2.23 限时特价',
+    badge: '最流行',
     buyPlan: '立即购买',
     title: '价格',
     permanent: "永久",
@@ -40,7 +40,7 @@ export const prices = {
             title: '个人专业版',
             desc: '适用于您用户量快速发展的应用程序',
             price: '￥2499',
-            salePrice: '￥2249',
+            // salePrice: '￥2249',
             year: false,
             permanent: true,
             url: 'https://item.taobao.com/item.htm?ft=t&id=761921596721',
@@ -178,10 +178,10 @@ export const prices = {
             id: 1
         },
         {
-            logo: "https://img.fastmirror.net/s/2023/12/09/65740850ccc5b.png",
+            logo: "/img/users/CopyAsk.png",
             title: "Copyask",
             content: "“QFluentWidgets 组件库救我于调整样式表的水深火热之中，极大地加快了我的软件开发速度。在这一点上，QFluentWidgets 毫无疑问是我购买过的投资回报率最高的数字资产。希望这个组件库能够不断发展壮大下去。”",
-            avatar: "https://img.fastmirror.net/s/2023/12/09/6574094282706.png",
+            avatar: "/img/users/B1lli.png",
             name: "B1lli",
             job: "语核科技创始人",
             id: 2
