@@ -62,6 +62,10 @@ python demo.py
 
 如果遇到 `ImportError: cannot import name 'XXX' from 'qfluentwidgets'`，这表明安装的包版本过低，可以按照上面的安装指令将 pypi 源替换为 https://pypi.org/simple 并重新安装最新版本的包。
 
+::: tip 提示
+由于新版本的 PyQt6 和 PySide6 经常修改 Windows11 的 QStyle，可能导致组件库样式异常，出现这种状况时请降低 PyQt6/PySide6 的版本（比如 6.7.2）并向我们[提供反馈](mailto:shokokawaii@foxmail.com)。
+:::
+
 ## 如何入门
 
 1. 掌握 Qt 的信号槽机制、事件机制、按钮和输入框等常用组件的使用

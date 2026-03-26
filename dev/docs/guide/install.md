@@ -63,6 +63,10 @@ python demo.py
 
 If you encounter an `ImportError: cannot import name 'XXX' from 'qfluentwidgets'`, this indicates that the installed package version is too low. You can replace the PyPI source with https://pypi.org/simple and reinstall the latest version of the package according to the installation instructions above.
 
+::: tip Tip
+Due to the frequent modifications to Windows11's QStyle in newer versions of PyQt6 and PySide6, the components in QFluentWidgets may experience styling issues. If this occurs, please downgrade the version of PyQt6/PySide6 (e.g., to 6.7.2) and [provide feedback](mailto:shokokawaii@foxmail.com) to us.
+:::
+
 ## How to get started
 
 1. Master the signal-slot mechanism, event mechanism, and the use of common components such as buttons and input boxes in Qt.
