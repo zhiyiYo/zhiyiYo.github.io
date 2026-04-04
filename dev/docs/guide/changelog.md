@@ -4,6 +4,16 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.11.2
+#### New Components
+* Added `AdaptiveFlowLayout`
+
+#### New Features
+* Added the ability to set the maximum image resolution for AcrylicBrush
+
+#### Fixes
+* Fixed an issue where `FastCalendarPicker` could not select certain dates
+
 ### v1.11.0
 #### New Components
 * Added `FluentTitleBarButton`
