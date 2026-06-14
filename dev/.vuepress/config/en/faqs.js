@@ -24,7 +24,7 @@ export const faqs = {
         },
         {
             question: 'Which versions of Qt are supported by the C++ component library?',
-            answer: 'It supports Qt 5.12~5.15 and Qt6. QFluentWidgets is developed based on QWidgets and does not support QML.',
+            answer: 'It supports Qt 5.12~5.15 and Qt6. QFluentWidgets is developed based on QWidgets and does not support QML. Contact us if you need support for lower versions of Qt.',
         }
     ]
 };
