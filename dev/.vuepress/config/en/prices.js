@@ -21,7 +21,7 @@ export const prices = {
             price: '$599',
             year: false,
             permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
+            url: 'https://afdian.com/item/b97e72a8962b11ee8e3d5254001e7c00',
             recommend: false,
             features: [
                 { feature: '170+ community components' },
@@ -42,7 +42,7 @@ export const prices = {
             // salePrice: '$365',
             year: false,
             permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
+            url: 'https://afdian.com/item/b97e72a8962b11ee8e3d5254001e7c00',
             recommend: true,
             features: [
                 { feature: '170+ community components' },
