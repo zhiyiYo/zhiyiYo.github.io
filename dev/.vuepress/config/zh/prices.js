@@ -18,7 +18,7 @@ export const prices = {
         {
             title: '个人至尊版',
             desc: '开箱即用，快速开发',
-            price: '￥3699',
+            price: '￥3099',
             year: false,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -39,8 +39,8 @@ export const prices = {
         {
             title: '个人专业版',
             desc: '适用于您用户量快速发展的应用程序',
-            price: '￥2499',
-            // salePrice: '￥2249',
+            price: '￥2249',
+            salePrice: '￥1999',
             year: false,
             permanent: true,
             url: 'https://item.taobao.com/item.htm?ft=t&id=761921596721',
